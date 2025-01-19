@@ -1,3 +1,16 @@
+/**
+ * This question was asked in a frontend interview in Securiti.AI
+ * Covers basic javascript / logic building
+ * 
+ * Explains: How Pakistani ATMs work and currency notes are cashed out
+ * with last denomination as a special case as it cannot be broken down.
+ * 
+ * @param amount 
+ * @returns object with denomination as key value pairs.
+ * @author hassan adnan
+ * 
+ */
+
 const AtmMachine = (amount: number): object => {
 
     const denominations: string[] = ["5000", "1000", "500"]
